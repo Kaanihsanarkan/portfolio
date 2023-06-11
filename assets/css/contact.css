@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.984), rgba(0,0,0,0.5));
+    background-size: cover;
+}
+.container form {
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background: rgba(227,227,227,0.1);
+    flex-wrap: wrap;
+    backdrop-filter: blur(10px);
+}
+.container form h1{
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.container form input {
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+.container form .lastName {
+    margin-left: 20px;
+}
+
+.container form textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+.container form .button {
+    border: none;
+    background: white;
+    color: black;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
